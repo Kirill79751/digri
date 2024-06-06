@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <!--    Local styles-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <!-- Title site -->
+    <title>Главная</title>
+</head>
+<body>
+<header>
+    <div class="header__container">
+        <div class="logo">
+            <a href="./index.html">Дигри</a>
+        </div>
+        <div class="header__menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#course">Курсы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__button">
+            <a href="login.html">
+                <div class="header__login">Вход</div>
+            </a>
+            <a href="reg.html">
+                <div class="header__reg">Зарегистрироваться</div>
+            </a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="first">
+        <div class="first__info">
+            <span>Онлайн курсы</span>
+            <div class="first__title">
+                Узнай об IT <br> специальностях <br> за 4 дня
+            </div>
+            <div class="first__txt">
+                Разберем востребованные <br> профессии IT направления: <br> от программы для кофейного <br> аппарата, до
+                топового разработчика
+            </div>
+            <a href="#course"><button>Записатья на курс</button></a>
+        </div>
+        <div class="first__img">
+            <img src="./assets/img/firstPage.png" alt="first img">
+        </div>
+    </div>
+    <div class="container">
+        <a name="about"></a>
+        <div class="questions">
+            <div class="title">
+                Поможем определить
+                <br>
+                направление куда
+                <br>
+                двигаться
+            </div>
+            <div class="questions__container">
+                <div class="questions__img">
+                    <img src="./assets/img/questions.png" alt="questions">
+                </div>
+                <div class="questions__info">
+                    <div class="questions__info__block">
+                        <div class="questions__info__title">Найти себя</div>
+                        <div class="questions__info__text">Узнаете, чем можно заниматься в айти и попробуете себя сразу
+                            в нескольких профессиях. Разберёте типичные задачи специалистов и сможете осознанно выбрать
+                            свою сферу
+                        </div>
+                    </div>
+                    <div class="questions__info__block">
+                        <div class="questions__info__title">Куда направляться ?</div>
+                        <div class="questions__info__text">С помощью IT вы сможете ни от кого не зависить с помощью
+                            фриланса, изучать английский язык,
+                            оставаться актуальным
+                        </div>
+                    </div>
+                    <div class="questions__info__block">
+                        <div class="questions__info__title">Может вам не нравится ваше направление сейчас?</div>
+                        <div class="questions__info__text">Если вас не устраивает ваша специальность сейчас, то никогда
+                            не поздно сменить ее на другую
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a name="course"></a>
+        <div class="title" style="text-align: center">
+            Наши программы
+        </div>
+        <div class="cards">
+            <div class="card" id="card__1">
+                <div class="card__title">
+                    Графический дизайнер
+                </div>
+                <div class="card__container">
+                    <div class="card__container__img">
+                        <img src="./assets/img/cardDesign.png" alt="Дизайн">
+                    </div>
+                    <div class="card__container__info">
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Научим работать с лендингами </span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Научим работать с каталогами, листовками, буклетами</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Научим работать с визуалом для соцсетей</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Научим работать с инфографикой и статьями</span>
+                        </div>
+                        <a href="./graf.html"><div class="card__info__button">
+                            Записаться на курс
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__title">
+                    Тестирование, <br>
+                    анализ данных и <br>
+                    работа с нейросетям
+                </div>
+                <div class="card__container">
+                    <div class="card__container__img">
+                        <img src="./assets/img/cardTest.png" alt="Дизайн" style="width: 70%">
+                    </div>
+                    <div class="card__container__info">
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Анализ требований к приложениям, создание и ведение документации</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Тестирование мобильных и веб-приложений, API</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Написание SQL-запросов и работа с таблицами</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Основы Python и автоматизации тестирования</span>
+                        </div>
+                        <a href="./test.html"><div class="card__info__button">
+                            Записаться на курс
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__title">
+                    Python-разработчик
+                </div>
+                <div class="card__container">
+                    <div class="card__container__img">
+                        <img src="./assets/img/cardPython.png" alt="Дизайн">
+                    </div>
+                    <div class="card__container__info">
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Разрабатывать бэкенд, то есть логику и функционал, сайтов, приложений и других веб-сервисов</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>API— интерфейс, в котором взаимодействуют программы. Например, фронтенд и бэкенд.</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Фреймворк — это готовый шаблон с кодом, а Django — один из самых популярных фреймворков для Python</span>
+                        </div>
+                       <a href="python.html"> <div class="card__info__button">
+                            Записаться на курс
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__title">
+                    Java-разработчик
+                </div>
+                <div class="card__container">
+                    <div class="card__container__img">
+                        <img src="./assets/img/CardJava.png" alt="Дизайн">
+                    </div>
+                    <div class="card__container__info">
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Впервую очередь изучите язык</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Научитесь тестировать свой код с помощью библиотеки JUnit и Mockito</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Получите базовое понимание алгоритмов, чтобы писать более эффективный код</span>
+                        </div>
+                        <div class="card__info__box">
+                            <img src="./assets/img/check.png" alt="check">
+                            <span>Получите базовое понимание алгоритмов, чтобы писать более эффективный код</span>
+                        </div>
+                       <a href="java.html"> <div class="card__info__button">
+                            Записаться на курс
+                        </div> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title" style="margin-left: 40px;">
+            Спикеры
+        </div>
+        <div class="speakers">
+            <div class="speakers__row">
+                <div class="speakers__card">
+                    <div class="speakers__card__PersonalInformation">
+                        <img src="./assets/img/speakers_1.png" alt="Спикер">
+                        <div class="speakers__name">
+                            <span>Василий</span>
+                            <p>Покладов</p>
+                        </div>
+                    </div>
+                    <div class="speakers__position">
+                        Гениральный
+                        директор и
+                        основатель проекта
+                        “Дигри”
+                    </div>
+                    <div class="speakers__info">
+                        <nav>
+                            <ul>
+                                <li>Выпускник НИУ ВШЭ</li>
+                                <li>25 лет опыта в веб-разработки</li>
+                                <li>Больше 200 выступлений на
+                                    публике
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="speakers__card">
+                    <div class="speakers__card__PersonalInformation">
+                        <img src="./assets/img/speakers_2.png" alt="Спикер">
+                        <div class="speakers__name">
+                            <span>Игорь</span>
+                            <p>Обумов</p>
+                        </div>
+                    </div>
+                    <div class="speakers__position">
+                        По
+                        совместительству
+                        зам директор
+                        проекта “Дигри”
+                    </div>
+                    <div class="speakers__info">
+                        <nav>
+                            <ul>
+                                <li>Выпускник НИУ ВШЭ</li>
+                                <li>15 лет опыта в тестирование, в
+                                    веб-разработке
+                                </li>
+                                <li>10 лет руководит командами
+                                    разработки в разных
+                                    проектах
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer">
+            <div class="offer__container">
+                <span>Успейте записаться и получить специальное предложение именно для вас</span>
+                <form action=""  id="emailForm2">
+                    <label>
+                        <input type="email"  id="email2" placeholder="Введите адрес электронной почты">
+                    </label>
+                </form>
+                <div class="offer__agreement">
+                    <p>Нажимая на кнопку, я соглашаюсь на</p>
+                    <a href="https://skillbox.ru/privacy_policy.pdf">
+                        обработку персональных данных, с правилами пользования Платформой, публичной офертой, правилами акции "Поможем найти работу или вернем деньги"
+                    </a>
+                </div>
+                <button class="offer__btn" onclick="sendEmail2()">Записаться на курс</button>
+            </div>
+
+            <img class="offer__book" src="./assets/img/book.png" alt="">
+            <img class="offer__box" src="./assets/img/box.png" alt="">
+        </div>
+    </div>
+</main>
+<footer>
+    <a name="contact"></a>
+    <div class="footer__container">
+        <div class="footer__title">Дигри</div>
+        <form action="" id="emailForm">
+            <p>Оставьте свой email для того, чтобы получить скидку</p>
+            <label>
+                <input type="email"  id="email" placeholder="Email@Mail.com">
+            </label>
+        </form>
+        <div class="footer__contact">
+            <div class="footer__contact__title">Наши контакты</div>
+            <div class="footer__contact__email">DigriIT@mail.com</div>
+            <div class="footer__contact__address">Пресненская наб., 10, стр. 1, 70 этаж, Москва</div>
+            <button class="footer__btn" onclick="sendEmail()">Записаться на курс</button>
+        </div>
+    </div>
+</footer>
+<script>
+    function sendEmail() {
+        var email = document.getElementById('email').value;
+        if (email) {
+            var mailtoLink = 'mailto:kirill79751@gmail.com?subject=Запрос на курс&body=Email: ' + encodeURIComponent(email);
+            window.location.href = mailtoLink;
+        } else {
+            alert("Пожалуйста, введите адрес электронной почты.");
+        }
+    }
+    function sendEmail2() {
+        var email = document.getElementById('email2').value;
+        if (email) {
+            var mailtoLink = 'mailto:kirill79751@gmail.com?subject=Запрос на курс&body=Email: ' + encodeURIComponent(email);
+            window.location.href = mailtoLink;
+        } else {
+            alert("Пожалуйста, введите адрес электронной почты.");
+        }
+    }
+</script>
+</body>
+</html>
