@@ -1,0 +1,143 @@
+.title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input {
+  margin-top: 61px;
+}
+
+.reg {
+  background: #01003E;
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reg__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.digri {
+  width: 50%;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  background: rgb(0, 0, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  font-size: calc(0.012295082 * 100vw + 6.393442623px);
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  display: block;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  opacity: 0.9;
+  width: 100%;
+  height: 55px;
+}
+
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 73px;
+}
+
+.login {
+  background: none;
+  border: none;
+  color: rgb(231, 124, 64);
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+
+.reg__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 10px;
+  /* alert-color */
+  background: rgb(231, 124, 64);
+  width: 224px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.social {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 73px auto;
+}
+
+a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

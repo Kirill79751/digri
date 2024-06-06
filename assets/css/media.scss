@@ -1,0 +1,164 @@
+@media (max-width: 1350px) {
+  .curator {
+    height: unset;
+    padding-bottom: 40px;
+  }
+  .job {
+    height: unset;
+    padding-bottom: 40px;
+  }
+  .firstPage {
+    height: unset;
+    padding-bottom: 40px;
+  }
+  .firstPage__img {
+    img {
+      width: 100%;
+    }
+  }
+  .price {
+    height: 500px;
+  }
+  .firstPage__btn {
+    height: 60px;
+    width: 375px;
+  }
+  .job__img {
+    img {
+      width: 100%;
+    }
+  }
+  .header__button {
+    width: 27%;
+  }
+  .questions__img {
+    img {
+      width: 100%;
+    }
+  }
+  .offer__container {
+    width: 90%;
+  }
+  .header__container .header__menu {
+    width: 35%;
+  }
+  .offer__container input {
+    height: 60px;
+  }
+  .offer {
+    height: 616px;
+  }
+  .first__title {
+    line-height: 60px;
+  }
+  .footer__btn {
+    width: 30%;
+    right: 0;
+  }
+  .header__reg {
+    padding: 5px;
+  }
+  .header__button {
+    width: 18%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .offer__container span {
+    width: unset;
+  }
+  .card__info__button {
+    width: 280px;
+    height: 40px;
+  }
+  .card__info__box:not(:first-child) {
+    margin-top: 19px;
+  }
+  .card__container__info {
+    margin-top: 10px;
+  }
+  .card {
+    height: 490px;
+  }
+  .card__container__img {
+    img {
+      margin-top: 60px;
+    }
+  }
+  #card__1 {
+    height: 384px;
+  }
+  .offer {
+    height: 450px;
+  }
+  .offer__btn {
+    bottom: unset;
+    width: 32%;
+    height: 50px;
+  }
+  .footer__btn {
+    width: 32%;
+    height: 50px;
+    bottom: 0;
+  }
+  .questions__container .questions__img {
+    display: none;
+  }
+  .questions__info {
+    margin-top: 40px;
+    width: 100% !important;
+  }
+  .first .first__img {
+    margin-top: 20px;
+  }
+  .first .first__info {
+    margin-top: 0;
+  }
+  .first .first__info button {
+    display: block;
+    margin: 54px auto 0;
+  }
+  .first__info a {
+    display: block;
+    width: 100%;
+  }
+  .curator__personal {
+    justify-content: space-between;
+  }
+  .curator__img img {
+    width: 100%;
+  }
+  .curator__name {
+    width: 50%;
+  }
+  .btns {
+    display: block;
+  }
+  .btns button{
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+  .social {
+    width: 80%;
+  }
+}
+@media (max-width: 720px) {
+  .header__button {
+    width: 25%;
+  }
+  .header__reg {
+    padding: 0;
+    height: 20px;
+  }
+  .first__title {
+    line-height: 40px;
+  }
+  .first__title {
+    font-size: 22px;
+  }
+  .first__txt {
+    line-height: 15px;
+  }
+  
+}

@@ -1,0 +1,110 @@
+@function calcFluidFontSize($f-min, $f-max, $v-min, $v-max) {
+  $k: ($f-max - $f-min)/($v-max - $v-min);
+  $b: $f-min - $k * $v-min;
+
+  $b: $b * 1px;
+
+  @return calc( #{$k} * 100vw + #{$b} );
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates,sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 45px;
+}
+main {
+  display: flex;
+}
+input {
+  margin-top: 61px;
+}
+.reg {
+  background: #01003E;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reg__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.digri {
+  width: 50%;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates,sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat,sans-serif;
+  font-size: calcFluidFontSize(15, 30, 700, 1920);
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  display: block;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  opacity: 0.9;
+  width: 100%;
+  height: 55px;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 73px;
+}
+.login {
+  background: none;
+  border: none;
+  color: rgb(231, 124, 64);
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+.reg__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  /* alert-color */
+  background: rgb(231, 124, 64);
+  width: 224px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.social {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: 73px auto;
+}
+a {
+  display: flex;
+  align-items: center;
+}
